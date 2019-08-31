@@ -1,11 +1,23 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     font-family: sans-serif;
 }
 
 .container {
-    height: 100%;
-    width: 100%;
     background: #42455a;
+    width: 100%;
+    height: 100%;
+}
+
+menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li span {
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
 }
